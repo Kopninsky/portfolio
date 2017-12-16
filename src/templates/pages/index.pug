@@ -1,0 +1,13 @@
+extends ../template
+
+block variables
+  - var title = 'Welcome'
+
+block content
+  h1 My profile
+  form
+    label(for="email") email
+    input(name="email" id="email" type="text")
+    label(for="password") password
+    input(name="password" id="password" type="password")
+    button enter
